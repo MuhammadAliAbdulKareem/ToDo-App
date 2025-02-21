@@ -1,9 +1,13 @@
 // ignore_for_file: prefer_single_quotes
-class Assets {
-  Assets._();
+class AssetsManager {
+  AssetsManager._();
   
-  static const String assetsImagesDiscovery = "assets/images/discovery.svg";
+  static const String darkToDoIcon = "assets/images/darkToDoIcon.png";
 
-  static const String assetsImagesDone = "assets/images/done.svg";
+  static const String discovery = "assets/images/discovery.svg";
+
+  static const String done = "assets/images/done.svg";
+
+  static const String lightToDoIcon = "assets/images/lightToDoIcon.png";
 }
 

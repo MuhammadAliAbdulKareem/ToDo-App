@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       builder: (_, child) => MaterialApp(
         debugShowCheckedModeBanner: false,
         onGenerateRoute: RouteManager.router,
-        initialRoute: RouteManager.home,
+        initialRoute: RouteManager.login,
         title: 'ToDo App',
         theme: AppTheme.light,
         darkTheme: AppTheme.light,

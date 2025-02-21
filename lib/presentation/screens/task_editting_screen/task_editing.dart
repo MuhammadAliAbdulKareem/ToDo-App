@@ -10,7 +10,7 @@ class TaskEditing extends StatefulWidget {
   TaskEditing({super.key, required this.task});
 
   DateTime selectedDate = DateTime.now();
-  TaskDataModel task;
+  final TaskDataModel task;
   @override
   State<TaskEditing> createState() => _TaskEditingState();
 }

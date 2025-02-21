@@ -61,13 +61,6 @@ class TasksTabState extends State<TasksTab> {
       itemBuilder: (context, date, isSelected, onTap) => InkWell(
         onTap: () {
           tasksProvider.changeSelectedDate(date);
-
-          Fluttertoast.showToast(
-            msg: '${tasksProvider.selectedDate}',
-            backgroundColor: Colors.red,
-            gravity: ToastGravity.BOTTOM,
-            toastLength: Toast.LENGTH_LONG,
-          );
         },
         child: Card(
           elevation: 8.0,

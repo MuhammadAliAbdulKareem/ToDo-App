@@ -111,7 +111,7 @@ class _TaskItemState extends State<TaskItem> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               SvgPicture.asset(
-                Assets.assetsImagesDiscovery,
+                AssetsManager.discovery,
               ),
               // const SizedBox(width: 4),
               4.horizontalSpace,
@@ -148,7 +148,7 @@ class _TaskItemState extends State<TaskItem> {
                       borderRadius: BorderRadius.circular(10.0.r),
                     ),
                     child: SvgPicture.asset(
-                      Assets.assetsImagesDone,
+                      AssetsManager.done,
                       // width: 25.8.w,
                       // height: 19.24.h,
                       // width: 200,

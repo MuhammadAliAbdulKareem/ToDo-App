@@ -9,12 +9,27 @@ class LightAppStyle {
     fontSize: 22.sp,
     fontWeight: FontWeight.w700,
   );
+  static TextStyle loginHeader = GoogleFonts.lato(
+    color: const Color(0xff87CEEB),
+    fontSize: 32.sp,
+    fontWeight: FontWeight.w700,
+  );
   static TextStyle dropdownMenuLabel = GoogleFonts.poppins(
     color: ColorsManager.blackAccent2,
     fontSize: 18.sp,
     fontWeight: FontWeight.w700,
   );
+  static TextStyle textFormFieldHeader = GoogleFonts.poppins(
+    color: ColorsManager.blue,
+    fontSize: 20.sp,
+    fontWeight: FontWeight.w700,
+  );
   static TextStyle dropdownMenuHint = GoogleFonts.poppins(
+    color: ColorsManager.blue,
+    fontSize: 18.sp,
+    fontWeight: FontWeight.w600,
+  );
+  static TextStyle textFormStyle = GoogleFonts.poppins(
     color: ColorsManager.blue,
     fontSize: 18.sp,
     fontWeight: FontWeight.w600,
